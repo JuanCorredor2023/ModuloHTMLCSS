@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="todo">
+        <h1>Please complete the form below</h1>
+        <h2>Personal information</h2>
+        <form>
+
+            <!-- Grupo: Nombre -->
+            <div class="nombre">
+                <label for="First Name"><b>First name:</b> </label><br>
+                <input type="text" name="First Name">
+                <br><br>
+            </div>
+
+
+            <!-- Grupo: Apellido -->
+            <div class="apellido">
+                <label for="Last Name"><b>Last Name:</b> </label><br>
+                <input type="text" name="Last Name">
+                <br><br>
+            </div>
+
+
+            <!-- Grupo: Email -->
+            <div class="email">
+                <label for="Email"><b>Email:</b> </label><br>
+                <input type="email" name="Email">
+                <br><br>
+            </div>
+
+            <!--Grupo: Password-->
+
+            <div class="password">
+
+                <label for="password"><b>Password</b></label><br>
+                <input type="password" name="password">
+                <br><br>
+            </div>
+            <!-- Grupo: age -->
+            <div class="age">
+                <label for="age"><b> Edad:</b> </label><br>
+                <input type="number" name="age">
+                <br><br>
+            </div>
+            <!-- Grupo: bio -->
+            <div class="bio">
+                <label for="bio"><b>Bio:</b> </label><br>
+                <textarea rows="5" cols="60" name="description">
+                    Enter su biografìa...
+                 </textarea>
+            </div>
+
+            <div class="check">
+                <label for="check"><b>Check here to cerify you are 18 years old or older and that you agree to the terms
+                        of the purchases</b> </label><br>
+                <input type="checkbox" name="check">
+            </div>
+            <div class="enviar">
+                <button>Send</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

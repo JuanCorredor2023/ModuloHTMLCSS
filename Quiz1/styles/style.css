@@ -1,0 +1,67 @@
+.circulo-verde{
+    background-color: green;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    font-size: 5opx;
+    text-align: center;
+    margin: 40px;
+    justify-content: center;
+    flex-direction: row;
+}
+.rectangulo-azul{
+    background-color: blue;
+    display: flex;
+    width: 700px;
+    height: 400px;
+    font-size: 5opx;
+    text-align: center;
+    margin-top: 200px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.triangulo-morado{
+    display: flex;
+    width: 0px;
+    height: 0px;
+    border: solid 300px ;
+    border-color: transparent transparent purple transparent;
+    justify-content: center;
+    flex-direction: row;
+}
+.rombo-amarillo{
+    background-color: yellow;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    font-size: 5opx;
+    text-align: center;
+    transform: rotate(45deg);
+    margin: 40px;
+    margin-top: 200px ;
+    justify-content: center;
+    flex-direction: row;
+}
+.C-text{
+    display: flex;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.R-text{
+    display: flex;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.T-text{
+    display: flex;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+.RO-text   {
+    display: flex;
+    font-size: 70px;
+    transform: rotate(-45deg)!important;
+    font-family: Arial, Helvetica, sans-serif;
+}
